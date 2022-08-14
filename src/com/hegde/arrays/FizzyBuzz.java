@@ -20,9 +20,7 @@ Given an integer n, return a string array answer (1-indexed) where:
 public class FizzyBuzz {
 
     public static void main(String[] args) {
-
         int n = 5;
-
         List<String> answer = new ArrayList<>();
         for (int i = 1; i != n + 1; ++i) {
             if (i % 3 == 0 & i % 5 == 0) {
