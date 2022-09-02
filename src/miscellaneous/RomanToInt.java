@@ -1,4 +1,4 @@
-package com.hegde.misc;
+package miscellaneous;
 
 import java.util.HashMap;
 import java.util.Map;

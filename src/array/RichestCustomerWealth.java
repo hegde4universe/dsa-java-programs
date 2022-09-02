@@ -1,4 +1,4 @@
-package com.hegde.arrays;
+package array;
 
 /*
 
