@@ -15,7 +15,7 @@ public class ExceptionallyOdd {
 
     public static void main(String[] args) {
         int[] numberArray = {1, 2, 3, 2, 3, 1, 3};
-       //solution1
+        //solution1
         int xor = 0;
         for (int i : numberArray) {
             xor = xor ^ i;
