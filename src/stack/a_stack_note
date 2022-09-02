@@ -1,0 +1,45 @@
+Stack , what is it?
+Stack is one-ended linear data structure which models real-world stack by having two primary operations push and pop
+
+##operations all O(1)
+push() to insert an element into the stack
+pop() returns top element and removes it from the stack
+peek() Returns the top element of the stack(without removing it)
+isEmpty() returns true is stack is empty else false
+size() returns the size of stack
+search() - returns how far/distance of element
+
+##use cases?
+Infix to Postfix /Prefix conversion, compiler syntax, matching braces and brackets
+Redo-undo features at many places like editors, photoshop.
+Forward and backward features in web browsers
+Used in many algorithms like Tower of Hanoi, tree traversals, stock span problems, and histogram problems.
+Recursion keeping track of previous method calls
+String reversal is also another application of stack. Here one by one each character gets inserted into the stack
+
+##There are two ways to implement a stack
+Using array
+Using linked list
+
+##Algorithm for push:
+begin
+ if stack is full
+    return
+ endif
+else
+ increment top
+ stack[top] assign value
+end else
+end procedure
+
+##Algorithm for pop:
+begin
+ if stack is empty
+    return
+ endif
+else
+ store value of stack[top]
+ decrement top
+ return value
+end else
+end procedure
