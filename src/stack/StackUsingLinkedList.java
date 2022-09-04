@@ -59,6 +59,8 @@ public class StackUsingLinkedList {
     public static void main(String[] args) {
 
         CustomStack<String> stack = new CustomStack();
+        CustomStack<String> stack1 = new CustomStack();
+
         stack.push("naga");
         stack.push("raj");
         stack.push("hegde");
@@ -68,6 +70,16 @@ public class StackUsingLinkedList {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.size());
+
+        stack1.push("naga");
+        stack1.push("raj");
+        stack1.push("hegde");
+        System.out.println(stack1.peek());
+        System.out.println(stack1.size());
+        System.out.println(stack1.pop());
+        System.out.println(stack1.pop());
+        System.out.println(stack1.pop());
+        System.out.println(stack1.size());
     }
 
 }
