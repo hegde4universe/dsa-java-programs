@@ -11,7 +11,8 @@ public class ExceptionallyOdd {
     N = 7
     Arr[] = {1, 2, 3, 2, 3, 1, 3}
     Output: 3
-    Explanation: 3 occurs three times.*/
+    Explanation: 3 occurs three times.
+    */
 
     public static void main(String[] args) {
         int[] numberArray = {1, 2, 3, 2, 3, 1, 3};
